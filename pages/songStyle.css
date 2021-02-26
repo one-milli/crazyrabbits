@@ -1,6 +1,7 @@
 body {
   color: #ffffff;
   background-color: #000080;
+  text-align: center;
 }
 
 a {
@@ -14,27 +15,9 @@ a {
   border-bottom: 1px solid #ffffff;
 }
 
-#discription {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#memberList {
-  text-align: center;
-  margin-bottom: 100px;
-}
-
-.name {
-  font-size: 40px;
-  line-height: 10px;
-}
-
-.member {
-  padding: 20px;
-}
-
-h2 {
-  text-align: center;
+.song {
+  padding: 30px;
+  margin: 30px;
 }
 
 #copyright {
