@@ -15,7 +15,6 @@ const generateResult = () => {
     sum += today.getFullYear();
     sum += (today.getMonth() + 1);
     sum += today.getDate();
-    console.log(sum);
 
     const resultElement = document.querySelector('#result');
     switch (sum % 4) {
