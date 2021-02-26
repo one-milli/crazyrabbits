@@ -3,6 +3,11 @@ body {
   background-color: #000080;
 }
 
+a {
+  color: #f0e68c;
+  text-decoration: none;
+}
+
 #title {
   padding: 10px;
   border-top: 1px solid #ffffff;
@@ -30,4 +35,24 @@ body {
 
 h2 {
   text-align: center;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.7em;
+  border-top: 1px solid #ffffff;
+}
+
+#back {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 80px;
+  border: 3px solid #333333;
+  background-color: #83bada;
+}
+
+p a.backLink {
+  color: #ffffff;
 }
