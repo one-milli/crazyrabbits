@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assessment.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <script src="./assessment.js"></script>
+    <title>クレラビ占い</title>
+</head>
+<body>
+    <h1 id="title">クレラビ占い</h1>
+    <div id="contents">
+        <!--
+        <p>あなたの名前は？</p>
+        <input type="text" id="userName" size="40" maxlength="20">
+        -->
+        <p>あなたの誕生日は？</p>
+        <input type="number" id="year" value="2000" max="2050" min="1900">年
+        <input type="number" id="month" value="1" max="12" min="1">月
+        <input type="number" id="day" value="1" max="31" min="1">日
+        <br>
+        <button id="assessment" onclick="generateResult()">占う</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
