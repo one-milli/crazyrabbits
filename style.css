@@ -1,8 +1,44 @@
 body {
   color: #ffffff;
   background-color: #000080;
+  text-align: center;
 }
 
-li {
-  list-style: none;
+a {
+  color: #f0e68c;
+  text-decoration: none;
+}
+
+.news {
+  padding: 10px;
+  margin: 20px auto;
+  border: 6px double;
+  border-color: #333333;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #4682b4;
+}
+
+.menu {
+  padding: 10px;
+  margin: 20px auto;
+  border: 6px double;
+  border-color: #333333;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #4682b4;
+  line-height: 50px;
+}
+
+#accessCounter {
+  padding: 20px;
+}
+
+hr {
+  width: 80%;
+}
+
+#footer {
+  padding: 20px;
+  font-size: 0.5em;
 }
