@@ -9,6 +9,14 @@ a {
   text-decoration: none;
 }
 
+#title {
+  margin: 20px;
+}
+
+#rabbit {
+  margin: 20px;
+}
+
 .news {
   padding: 10px;
   margin: 20px auto;
@@ -35,10 +43,12 @@ a {
 }
 
 hr {
+  color: #ffffff;
   width: 80%;
 }
 
 #footer {
   padding: 20px;
-  font-size: 0.5em;
+  font-size: 0.7em;
+  border-top: 1px solid #ffffff;
 }
